@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Buzzword Technologies</title>
+    <style>
+      body {
+        background-color: #040404;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #bc1d2d;
+        padding: 20px;
+      }
+      img {
+        width: 50vw;
+        max-width: 600px;
+      }
+      .slogan {
+        color: #f7b44d;
+        font-size: 4vw;
+        margin-top: 2vh;
+      }
+      .contact-button {
+        background-color: #f7b44d;
+        color: black;
+        font-size: 2vw;
+        padding: 1.5vh 3vw;
+        margin-top: 2vh;
+        border: none;
+        cursor: pointer;
+      }
+      /* Media Query for Mobile */
+      @media screen and (max-width: 768px) {
+        .slogan {
+          font-size: 2rem;
+        }
+        .contact-button {
+          font-size: 1.5rem;
+          padding: 1rem 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Website Coming Soon</h1></header>
+    <main>
+      <div class="slogan">
+        <img
+          src="buzzword-technologies-logo.jpg"
+          alt="Buzzword Technologies Logo"
+        />
+      </div>
+      <button
+        class="contact-button"
+        onclick="window.location.href='mailto:contact@buzzwordtechnologies.com'"
+      >
+        Contact
+      </button>
+    </main>
+  </body>
+</html>
